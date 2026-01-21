@@ -1,0 +1,49 @@
+{
+  "name": "xigusa-growth-os",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "api": "cd api && func start"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.0.9",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curtpdc/xigusa-growth-os.git"
+  },
+  "keywords": [],
+  "author": "Curt Patrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curtpdc/xigusa-growth-os/issues"
+  },
+  "homepage": "https://github.com/curtpdc/xigusa-growth-os#readme",
+  "dependencies": {
+    "@azure/cosmos": "^4.9.0",
+    "@azure/msal-browser": "^5.0.2",
+    "@azure/msal-react": "^5.0.2",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "autoprefixer": "^10.4.23",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.562.0",
+    "postcss": "^8.5.6",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.12.0",
+    "recharts": "^3.7.0",
+    "tailwindcss": "^4.1.18"
+  }
+}
